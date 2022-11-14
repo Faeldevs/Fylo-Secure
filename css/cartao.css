@@ -1,0 +1,60 @@
+.card{
+    width: 40vw;
+    height: auto;
+    background-color: rgb(243, 243, 243);
+    display: block;
+    box-shadow: 4px 4px 3px 1px rgba(65, 65, 65, 0.575);
+    padding: 1em;
+    margin-top: 5em;
+    margin-left: 3em;
+}
+
+.card__texto{
+    color: var(--very-dark-blue);
+    line-height: 2em;
+    font-size: 13px;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.card__icone--aspas{
+    padding-left: 2em;
+    
+}
+
+.card__imagem{
+    margin-right: 1em;
+    border-radius: 100%;
+    width: 40px;
+    height: auto;
+}
+
+.card__pessoa{
+    display: flex;
+    padding: 1em 1em 0 0;
+}
+
+.card__nome{
+    color: var(--very-dark-blue);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.card__funcao{
+    font-size: 12px;
+}
+
+@media screen and (max-width:900px){
+    .card{
+        margin-top: 3em;
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width:740px){
+    .card{
+        margin-top: 3em;
+        width: 80vw;
+    }
+
+}
